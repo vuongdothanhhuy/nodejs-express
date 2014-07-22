@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/vuongdothanhhuy/nodejs-express",
   "dependencies": {
-    "express": "^4.6.1"
+    "express": "^4.6.1",
+    "socket.io": "^1.0.6"
   }
 }
