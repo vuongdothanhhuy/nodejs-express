@@ -19,8 +19,18 @@
     <input id="m" autocomplete="off" /><button>Send</button>
 </form>
 <script src="/socket.io/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 <script>
     var socket = io();
+    $('form').submit(function(){
+        socket.emit('inComingMessage', $('#m').val());
+        $('#m').val('');
+        return false;
+    });
+
+    socket.on('inComming', function(mess){
+        $('#messages').append($('<li>').text(mess));
+    });
 </script>
 </body>
 </html>
