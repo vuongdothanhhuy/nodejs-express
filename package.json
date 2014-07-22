@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-express",
+  "version": "0.0.1",
+  "description": "NodeJS with Express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: node test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuongdothanhhuy/nodejs-express.git"
+  },
+  "author": "Huy, Vuong Do Thanh",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/vuongdothanhhuy/nodejs-express/issues"
+  },
+  "homepage": "https://github.com/vuongdothanhhuy/nodejs-express",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
+}
