@@ -1,4 +1,6 @@
 node_modules
 www/ember/node_modules/
 www/pho/node_modules/
+www/ember/app/bower_components/
+www/pho/src/bower_components/
 
